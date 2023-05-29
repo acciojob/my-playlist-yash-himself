@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#cccccc;
+	font-family:sans-serif;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+
+.player_one{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.list{
+	width:90vw;
+	height:140px;
+	border-radius:10px;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+}
+.list a{
+	padding:5px;
+	text-decoration:none;
+	color: black;
+	
+}
+video{width:350px;}
+.player_two{
+	width:400px;
+	background:white;
+	display:flex;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
+	margin-top:10px;
+	border-radius:10px;
+	position:relative;
+	margin:auto;
+}
+
